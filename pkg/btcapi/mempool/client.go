@@ -26,7 +26,7 @@ func NewClient(netParams *chaincfg.Params, baseURL string) *MempoolClient {
 			log.Fatal("mempool don't support other netParams")
 		}
 	}
-	log.Println("baseURL: ", baseURL)
+	log.Println("baseURL : ", baseURL)
 	return &MempoolClient{
 		baseURL: baseURL,
 	}
